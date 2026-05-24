@@ -24,3 +24,7 @@ plugins {
 }
 
 include(":app")
+
+include(":unityLibrary")
+project(":unityLibrary").projectDir = file("../unity/riau_heritage_ar/unityLibrary")
+
